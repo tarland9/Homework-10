@@ -1,0 +1,382 @@
+*{
+    font-family: sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+header .nav a{
+    color: black;
+    font-size: 17px;
+    
+}
+header .action .number{
+    font-size: 10px;
+    top:-11px;
+    right: -12px;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+header a:hover{
+    color: brown !important;
+}
+header i:hover{
+    color: brown !important;
+}
+.dropdown{
+    position: relative;
+    
+}
+.db-contect a{
+    margin: 20px 0;
+    display: block;
+    padding-left:20px;
+
+   
+
+}
+.db-contect{
+  position: absolute;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  width: 200px;
+  transition: .5s;
+  margin-top: 27px;
+}
+.dropdown:hover .db-contect{
+ opacity: 1;
+ visibility: visible;
+}
+.down-mega{
+    position: relative;
+}
+ 
+.mega-content a{
+    margin: 20px 20px;
+    display: block;
+    padding-left:20px;
+}
+
+.mega-content{
+  position: absolute;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  width: 800px;
+  transition: .5s;
+  margin-top: 27px;
+  display: flex;
+}
+.down-mega:hover .mega-content{
+ opacity: 1;
+ visibility: visible;
+}
+.corusel{
+    background-image: url(https://htmldemo.net/kofi/kofi/assets/images/hero-slider/home-2/slide-1.jpg);
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    width: 100%;
+}
+.corusel .cor{
+    padding-top: 222px;
+    padding-left: 90px;
+}
+.corusel .text h2{
+    font-size: 80px;
+}
+.corusel a{
+   background-color:rgb(222, 192, 115);
+   padding: 20px 50px;
+   border-radius: 40px;
+   color: aliceblue;
+   
+  
+} 
+
+
+.corusel a:hover{
+    background-color:rgb(30, 30, 30) !important;
+}
+img{
+    width: 100%;
+}
+.services .card .img{
+    width: 30%;
+}
+.services .card{
+    border: 1px solid #E5E5E5;
+    box-shadow: 10px 25px 80px rgb(0 0 0 / 5%); 
+}
+.res-box{
+    padding: 40px 50px;
+    border: 1px solid #E5E5E5;
+    background-color: #fff;
+    box-shadow: 10px 25px 80px rgb(0 0 0 / 5%);  
+}
+.res-box .form{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 13px;
+}
+
+.menu .all-box .box{
+    border: 1px solid #E5E5E5;
+    box-shadow: 10px 25px 80px rgb(0 0 0 / 5%); 
+}
+.menu .price{
+    border-left: 1px solid #E5E5E5;
+    
+    
+}
+.menu .box .img{
+width: 13%;
+left: -45px;
+
+}
+.menu .box .img3{
+width: 8%;
+left:-30px;
+
+}
+.menu .box{
+    margin-bottom: 30px;
+    
+}
+.menu .box a{
+    font-size:16px;
+    transition: .5s;
+}
+.menu .box p{
+    font-size: 14px;
+}
+.menu .box a:hover{
+    color:coral !important;
+}
+
+.opening-time h4{
+    background-color:rgb(222, 192, 115);
+}
+.opening-time{
+    
+    border: 1px solid #E5E5E5;
+    box-shadow: 10px 25px 80px rgb(0 0 0 / 5%); 
+    
+}
+.collection .kind-of a{
+    color:#000;
+   font-size: 13px;
+   font-weight: bold;
+   transition: .5s;
+}
+.collection .kind-of a:hover{
+    color:coral;
+}
+.collection .card-body h5{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.collection .card-body h5:hover{
+    color:coral;
+}
+.collection .hover{
+    background-color:#fff;
+    padding: 22px 30px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    border-radius: 30px;
+    
+
+}
+.collection .hover i{
+    font-size: 20px;
+    padding-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+.collection .card:hover .hover {
+    opacity: 1;
+    visibility: visible;
+    top: 40%;
+}
+.client-says{
+    background-image: url('https://htmldemo.net/kofi/kofi/assets/images/testimonial/testimonial-bg.png');
+    background-position: center;
+    background-size:cover;
+}
+
+.client-says .chef-img{
+    width: 8%;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 40px;
+    
+    
+}
+
+.shop-galery .img{
+    border: 1px solid #E5E5E5;
+    box-shadow: 10px 25px 80px rgb(0 0 0 / 5%); 
+    padding: 10px;
+}
+.blog .gray span{
+    color: gray;
+    font-size: 15px;
+}
+
+.blog .card:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+     
+}
+
+.subscribe-footer{
+    background-image: url('https://htmldemo.net/kofi/kofi/assets/images/testimonial/testimonial-bg.png');
+    background-position: center;
+    background-size:cover;
+   
+}
+
+.subscribe-footer .logo{
+    width:15%;
+    margin: auto;
+}
+ .subscribe-footer .mc-form .email{
+ padding:15px 0 ;
+  width: 40%;
+  border-radius: 30px;
+  padding-left: 30px;
+  
+  
+ }
+ .subscribe-footer .button{
+    background-color:rgb(222, 192, 115);
+    border: none;
+    padding: 17px 35px;
+    color:white;
+    border-radius: 30px;
+    position: absolute;
+    right: 29.5%;
+    
+ }
+ .subscribe-footer .button:hover{
+    background-color:coral;
+ }
+
+
+  
+
+ 
+
+
+ .shop-galery a{
+    position: relative;
+    
+ }
+ .shop-galery a::before {
+    position: absolute;
+
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0;
+    background-color: rgba(199, 161, 122, 0.85);
+}
+.shop-galery a:hover::before{
+  visibility: visible;
+   opacity: 1;
+   
+}
+
+.head-phone{
+    display: none;
+}
+
+@media(max-width:576px){
+ .container{
+    padding: 0 2rem;
+ }
+    .header{
+    display: none;
+ }
+  .head-phone{
+    display: block;
+  } 
+  .head-phone .action .number{
+    font-size: 7px;
+    top:-11px;
+    right: -12px;
+    color:aliceblue;
+    background-color: black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.corusel .text h5{
+    
+    font-size: 20px !important;
+}
+.corusel .text h2{
+    font-size: 40px;
+}
+.corusel{
+    background-position:60%;
+    background-size: cover;
+   
+}
+.corusel .text p{
+    width: 100% !important;
+}
+
+.menu .box .img {
+    width: 16%;
+    left: -30px;
+    top:40px;
+}
+.menu .box .img3{
+    width: 10%;
+    left:-25px;
+    top:40px;
+    
+    }
+   .collection .card{
+    margin-bottom: 10%;
+   }
+    .collection .kind-of a{
+        padding-right:20px !important ;
+    }
+    .client-says .chef-img{
+        width: 30%;
+    }
+    .blog .card{
+        margin-bottom: 10%;
+    }
+    .subscribe-footer .logo{
+        width: 40%;
+    }
+    .subscribe-footer .mc-form .email{
+      width: 100%;
+    }
+    .subscribe-footer .mc-form .button{
+        right:0;
+       
+    }
+   .subscribe-footer .end{
+    display:block !important;
+    text-align: center;
+    padding-bottom: 20px;
+   }
+
+}
